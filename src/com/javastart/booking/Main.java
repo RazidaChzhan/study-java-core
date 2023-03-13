@@ -22,6 +22,7 @@ public class Main {
         Room[] sanFranciscoHotelRooms = new Room[]{new Room(2, 2800, true), new Room(3, 14000, true), new Room(1, 2000, true)};
         Hotel sanFranciscoHotel = new Hotel("SanFrancisco", sanFranciscoHotelRooms);
         System.out.println("\n");
+
         BookingService bookingService = new BookingService();
 
         bookingService.book(californiaHotel, loriClient, 4);
